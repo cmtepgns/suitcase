@@ -1,0 +1,199 @@
+body {
+    text-align: center;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+#title {
+    background-color: #051d35;
+    text-align: left;
+}
+
+.title-image {
+    width: 320px; 
+    border-radius: 25px;
+    transform: rotate(4deg); 
+    position: relative; 
+    top: -55px; 
+    left: 37%;
+}
+
+/* Heading */
+.big-Heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/* Buttons */
+.download_button {
+    margin: 5% 3% 5% 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 0px 15% 0px 15%;
+}
+
+a.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.yellow {
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+.big-Heading {
+    line-height: 1.75em;
+
+}
+
+/* Features section */
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.features-title {
+    font-weight: bolder;
+}
+
+.features-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    padding: 0px 15%;
+    background-color: #ff4c68;
+    color: white;
+}
+#testimonials p {color: #ddd}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press */
+#press {
+    background-color: #ef8172;
+}
+
+/* Carousel */
+.carousel-item {
+    padding: 7% 15%; 
+}
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+
+.price-column {
+    padding: 3% 2%;
+}
+
+/* cta section */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+.cta_heading {
+    font-size: 3.5rem;
+}
+
+/* footer */
+#footer {
+    padding: 7% 15%;
+}
+
+.social_icon {
+    margin: 20px 10px;
+}
+
+/* Media query */
+
+@media (max-width: 1280px) {
+    .title-image{
+        position: static; /* Remove margin */
+        transform:none;  
+        margin: 0 auto;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .testimonial-image {
+        width: 40%;
+    }
+
+    .testimonial-text, .section-heading {
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 460px) {
+    .title-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .download_button {
+        margin: 5px;
+    }
+
+    .cta_heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media ((min-width: 448px) AND (max-width: 788px)) {
+
+    .cta_heading {
+        font-size: 3rem;
+    }
+}
